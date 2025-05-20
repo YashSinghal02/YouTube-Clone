@@ -1,0 +1,141 @@
+.playvideo{
+    flex-basis: 69%;
+}
+.playvideo video {
+    width: 100%;
+    height: 37vh;
+}
+
+.playvideo  iframe{
+    width: 100% !important;
+    height: 37vw !important;
+}
+.playvideo h3{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.paly-video-info{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: #5a5a5a;
+font-size: 14px;
+margin-top: 10px;
+flex-wrap: wrap;
+}
+.paly-video-info img{
+    width: 20px;
+    margin-right: 8px;
+}
+.paly-video-info span{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.playvideo hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+.publisher{
+    display: flex;
+    align-items: center;
+    margin-top:20px ;  
+}
+.publisher div{
+ flex: 1;
+ line-height: 18px;
+}
+.publisher img{
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.publisher div p{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.publisher div span{
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.publisher button{
+    background-color: red;
+    color: white;
+    padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.video-description{
+    padding-left:55px ;
+    margin: 15px 0;
+
+}
+.video-description p{
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.video-description h4{
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.comment{
+    display: flex;
+margin: 20px 0;
+align-items: center;
+}
+.comment img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.comment h3{
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.comment h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+.comment-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.comment-action span{
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+@media only screen and (max-width:900px) {
+
+.playvideo{
+    flex-basis: 100%;
+}
+.playvideo iframe{
+    width: 100%;
+    height: 50vw;
+}
+.video-description{
+    padding-left: 0;
+}
+.playvideo .paly-video-info span{
+margin-left: 0;
+margin-right: 15px;
+margin-top: 15px;
+}
+}
